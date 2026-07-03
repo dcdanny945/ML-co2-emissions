@@ -1,12 +1,10 @@
-# ML CO₂ Emissions
-EDA and building Multiple Linear Regression model to predict CO₂ Emissions from historical dataset
 
+# CO₂ Emissions — EDA & Multiple Linear Regression
 
-# CO₂ Emissions EDA & Regression Analysis
- 
-Exploratory Data Analysis and building Multiple Linear Regression model to predict CO₂ Emissions.
- 
-Completed as part of MIS710 Machine Learning in Business at Deakin University.
+A machine learning project predicting vehicle CO₂ emissions from historical data, built through exploratory data analysis and an iterative multiple linear regression approach, reaching an Adjusted R² of 0.75.
+
+Completed as part of Master of Business Analytics at Deakin University.
+
  
 ## Business Problem
  
@@ -40,7 +38,7 @@ There is no accurate and reliable method to estimate CO₂ emissions for individ
 - Bivariate analysis: relationships between CO₂ emissions and Transmission, Dealer State, Vehicle Group, Fuel Group
 - Multivariate analysis: CO₂ emissions by Vehicle Group × Transmission Group
 - Correlation analysis: identified Cylinders (r = 0.79) and Engine Size (r = 0.77) as strongest predictors ; however, they exhibit strong collinearity with each other (r = 0.82)
-### Model Development (Iterative)    ==========   幫我加上adjust R² 欄位
+### Model Development (Iterative)
 | Model | Features | R² | Adjusted R²| 
 |-------|----------|-----|----------|
 | Simple Linear Regression | Cylinders | 0.62 | 0.62 |
