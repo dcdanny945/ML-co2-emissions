@@ -1,5 +1,5 @@
 
-# CO₂ Emissions — EDA & Multiple Linear Regression
+# Machine Learing to predict CO₂ Emissions (EDA & Multiple Linear Regression)
 
 A machine learning project predicting vehicle CO₂ emissions from historical data, built through exploratory data analysis and an iterative multiple linear regression approach, reaching an Adjusted R² of 0.75.
 
